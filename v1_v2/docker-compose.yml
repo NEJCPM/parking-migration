@@ -1,0 +1,10 @@
+services:
+  jypiter:
+    image: jupyter/scipy-notebook:2023-08-19
+    ports:
+      - 8888:8888
+    volumes:
+      - ./work:/home/jovyan/work
+    environment:
+      GRANT_SUDO: "yes"
+    user: root
