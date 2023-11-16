@@ -4,7 +4,7 @@ ssh_username = "william"
 ssh_password = "***"
 
 # Banco de onde os dados serão migrados, versão 1 da aplicação
-source_database_host = "grjcpm-rds-aurora-bossabox.cluster-ccmlp7sdp395.us-east-1.rds.amazonaws.com"
+source_database_host = "***"
 source_database_port = 3306
 source_database_username = "admin"
 source_database_password = "***"
@@ -14,7 +14,7 @@ source_database_name = "jcpmdb"
 target_database_host = "172.17.0.1"
 target_database_port = 5432
 target_database_username = "parking"
-target_database_password = "parking"
+target_database_password = "***"
 target_database_name = "postgres"
 
 # Mapeamento entre tenant_id e shopping_id
