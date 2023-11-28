@@ -66,8 +66,12 @@ def get_tenant(shopping_id):
 
 def add_timezone_to_date(sourceDate, timezoneName = 'America/Sao_Paulo'):
     customDate = None
-    if (isinstance(sourceDate, str)):
-        customDate = datetime.date.fromisoformat(datetime)
+
+    if (sourceDate == '0000-00-00 00:00:00'):
+        return sourceDate + ' -0300'
+
+    elif (isinstance(sourceDate, str)):
+        customDate = datetime.date.fromisoformat(sourceDate)
         
     elif (sourceDate == None):
         return None
