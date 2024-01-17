@@ -6,6 +6,8 @@ Scripts criados utilizando Jupyter, Pandas e Python para realizar a migração d
 
 ## Configurando o ambiente
 
+- Crie um arquivo environment.py, na pasta work, utilizando o arquivo "environment-example.py" como exemplo.
+
 - Ajuste as variáveis de ambiente no arquivo "environment.py" de acordo com o ambiente que deve ser migrado.
 
 - Para cada shopping ajuste a variável "current_shopping"
